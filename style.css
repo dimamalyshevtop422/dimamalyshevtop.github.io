@@ -1,0 +1,508 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: monospace, sans-serif;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+  
+}
+#logo {
+    height: 50px;
+    width: 130px;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+/* MENU START */
+.menu ul li{
+  padding: 10px;
+    font-family: Roboto ,sans-serif;
+    text-transform: uppercase;
+}
+.menu ul > li:hover{
+  background-color: #f96;
+}
+.menu ul ul > li:hover{
+  background-color: #f96;
+}
+.menu ul li, .menu ul{
+  display: inline-block;
+}
+.menu ul{
+  position: relative;
+  left: 1000px;
+  top: 30px;
+
+  background-color: #000;
+}
+.menu ul ul{
+  display: none;
+  position: absolute;
+  left: 82px;
+  top: 28px;
+  background-color: #f80;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+.menu ul a{
+  color: #fff;
+  text-decoration: none;
+}
+.menu ul ul a{
+  color: #fff;
+  text-decoration: none;
+}
+.menu li:hover ul{
+  display: block;
+}
+
+.menu li:hover li{
+  display: block;
+}
+/* END MENU */
+.social {
+    background-color: #2A334D;
+    width: 100%;
+    height: 750px;
+        
+}
+.logotip {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+#text {
+    font-family: Roboto , sans-serif;
+    font-size: 35px;
+    color: #fff;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+/*SIGN IN STARTED UFFFF */
+
+.cont_principal {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* Rectangle 3: */
+  
+}
+
+.cont_centrar {
+  position: absolute;
+  width: 320px;
+  left: 50%;
+  top: 50%;
+  margin-left: -160px;
+  margin-top: -160px;
+}
+
+.cont_centrar {
+  position: absolute;
+  left: 1200px;
+  top: 300px;
+  width: 320px;
+  float: left;
+  background-image: linear-gradient(-226deg, #ffffff 8%, #eef3f5 100%);
+
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+.cent_active {
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.21);
+}
+
+.cont_tabs_login {
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.ul_tabs > li {
+  position: relative;
+  float: left;
+  width: 50%;
+  list-style: none;
+  text-align: center;
+}
+
+.ul_tabs > li > a {
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #999;
+  line-height: 14px;
+  padding: 20px;
+  display: block;
+  transition: all 0.5s;
+}
+
+.ul_tabs > .active > a {
+  color: #ff8383;
+}
+
+.linea_bajo_nom {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #999;
+  height: 2px;
+}
+
+.active .linea_bajo_nom {
+  position: relative;
+  width: 100%;
+  float: left;
+  background-color: #ff8383;
+  height: 2px;
+}
+
+.cont_text_inputs {
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.input_form_sign {
+  position: relative;
+  float: left;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid #b0bec5;
+  background-color: transparent;
+  font-size: 14px;
+  outline: none;
+  transition: all 0.5s;
+  height: 0px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0;
+  display: none;
+}
+
+.active_inp {
+  margin: 5% 5%;
+  padding: 10px 0px;
+  opacity: 1;
+  height: 5px;
+}
+
+.input_form_sign:focus {
+  border-bottom: 1px solid #ff8383;
+}
+
+.link_forgot_pass {
+  position: relative;
+ 
+  margin-left: 30%;
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
+  display: none;
+  float: left;
+  transition: all 0.5s;
+}
+.cont_btn {
+  position: relative;
+  float: left;
+}
+
+.btn_sign {
+  background: rgba(255, 64, 88, 0.74);
+  box-shadow: 0px 2px 20px 2px rgba(255, 114, 132, 0.5);
+  border-radius: 8px;
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  float: left;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.terms_and_cons {
+  width: 70%;
+  color: #999;
+  font-size: 13px;
+  transition: all 0.5s;
+}
+
+.d_none {
+  display: none;
+}
+
+.d_block {
+  display: block;
+}
+
+.cont_text_inputs > input:nth-child(1) {
+  transition-delay: 0.2s;
+}
+
+.cont_text_inputs > input:nth-child(2) {
+  transition-delay: 0.4s;
+}
+.cont_text_inputs > input:nth-child(3) {
+  transition-delay: 0.6s;
+}
+.cont_text_inputs > input:nth-child(4) {
+  transition-delay: 0.8s;
+}
+/* END SIGN IN */
+#download {
+    position: absolute;
+    left: 130px;
+    top: 650px;
+    font-family: Roboto ,sans-serif;
+    background-color: #2A334D;
+    padding: 8px;
+    font-size: 25px;
+    border: 3px solid #fff;
+    color: #fff;
+    transition-duration: 0.5s;
+
+}
+#download:hover {
+    border: 3px solid #fff;
+    background-color: #2A334D;
+    color: #000;
+    transition-duration: 0.5s;
+}
+/* BUTTON END */
+#social-links {
+    width: 100%;
+    height: 90px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 850px;
+    font-size: 20px;
+    font-family: monospace , sans-serif;
+    
+    
+}
+/*started slider */
+.slider-dws {
+    width: 100%;
+    height: 800px;
+    background-color: #2A334D;
+}
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+  0% {
+    left: 0%;
+  }
+  20% {
+    left: 0%;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+  95% {
+    left: -300%;
+  }
+  100% {
+    left: -400%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body,
+figure {
+  margin: 0;
+  background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery {
+  width: 100%;
+  overflow: hidden;
+}
+figure.slider {
+  position: relative;
+  width: 500%;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+figure.slider figure {
+  width: 20%;
+  height: auto;
+  display: inline-block;
+  position: inherit;
+}
+figure.slider img {
+  width: 100%;
+  height: auto;
+}
+figure.slider figure figcaption {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  width: 100%;
+  font-size: 2rem;
+  padding: 0.6rem;
+}
+/*SLIDER ENDED */
+/*STARTED BUTTON UP */
+.sub-list {
+    width: 100%;
+    height: 500px;
+    background-color:  #2A334D;
+}
+.social-media {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    right: 100px;
+    top: 15px;
+}
+#text4 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+}
+.sub-block {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    left: 150px;
+    bottom: -500px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.text5 {
+    font-family: monospace , sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 80px;
+    
+}
+.text6 {
+    
+    position: absolute;
+    bottom: -300px;
+    right: 600px;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 3px solid #fff;
+}
+.text7 {
+    
+    position: absolute;
+    bottom: -400px;
+    right: 150px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+}
+.standart_picture_section {
+ width: 100%;
+ height: 400px;
+ background-color: #fff;
+}
+.block2 {
+    width: 300px;
+    height: 220px;
+    background-color: #2A334D;
+    position: absolute;
+    right: 180px;
+    bottom: -900px;
+    color: #fff;
+}
+.text8 {
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    bottom: -700px;
+    left: 100px;
+    border-bottom: 3px solid #2A334D;
+    padding:10px;
+}
+.text9 {
+        position: absolute;
+    bottom: -800px;
+    left: 200px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    color: #2A334D;
+}
+.text10 {
+       font-family: monospace , sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 90px;
+    text-align: center;
+    font-size: 20px;
+}
+.this_awesome {
+    width: 100%;
+    height: 500px;
+    background-color: #2A334D;
+}
+.text11 {
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    bottom: -1050px;
+    left: 600px;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 15px;
+    border-bottom: 5px solid #fff;
+    
+}
+.text12 {
+    font-size: 15px;
+    padding-right:150px;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    left: 100px;
+    bottom: -1300px; 
+    
+    
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #000;
+}
+.text13 {
+    position: absolute;
+    bottom: -1540px;
+    left: 600px;
+    color: #fff;
+    font-weight: 300;
+}
